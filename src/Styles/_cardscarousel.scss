@@ -1,0 +1,14 @@
+.cardsCarousel {
+    padding: 5rem 2rem;
+    .cards-wrapper {
+        display: flex !important;
+        justify-content: space-evenly;
+        .card {
+            // width: calc(100%/3) !important;
+            margin: 0 0.5rem;
+        }
+    }
+    .carousel-control-prev, .carousel-control-next {
+        width: 2%;
+    }
+}

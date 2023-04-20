@@ -1,0 +1,81 @@
+.button-primary {
+    font: $button-font;
+    background-color: $primary-color;
+    color: $white-color;
+    border-radius: $button-borderradius;
+    padding: 1rem 3rem;
+    border: 0;
+    white-space: nowrap;
+    &:hover,
+    &:focus,
+    &:active {
+            background-color: #E0511D; 
+            -webkit-transition: all .3s ease-out;
+            -o-transition: all .3s ease-out;
+            transition: all .3s ease-out;
+    }
+    &:disabled,
+    &:disabled:hover {
+            opacity: unset;
+            background-color: $darygrey-color;
+    }
+    }
+    
+    .button-secondary{
+        font: $button-font;
+        color: $primary-color;
+        background-color: $white-color;
+        border-radius: $button-borderradius;
+        padding: 1rem 3rem;
+        border: .2rem solid $primary-color;
+        width: auto;
+        white-space: nowrap;
+        &:hover,
+        &:focus,
+        &:active {
+            color: #BF3400;
+            border: .2rem solid #BF3400;
+            -webkit-transition: all .3s ease-out;
+            -o-transition: all .3s ease-out;
+            transition: all .3s ease-out;
+        }
+        &:disabled,
+        &:disabled:hover {
+            opacity: unset;
+            background-color: $white-color;
+            border: .2rem solid $darygrey-color;
+            color: $darygrey-color;
+        }
+    }
+    .button-tertiary{
+    font: $button-font;
+    color: $secondary-color;
+    background-color: $white-color;
+    border-radius: $button-borderradius;
+    padding: $button-ovalpadding;
+    border: .2rem solid $secondary-color;
+    width: auto;
+    white-space: nowrap;
+    &:hover,
+    &:focus,
+    &:active {
+        color: $navy-color;
+        border: .2rem solid $navy-color;
+        -webkit-transition: all .3s ease-out;
+        -o-transition: all .3s ease-out;
+        transition: all .3s ease-out;
+    }
+    &:disabled,
+    &:disabled:hover {
+            opacity: unset;
+            background-color: $white-color;
+            border: .2rem solid $navy-color;
+            color: $secondary-color;
+    }
+}
+    a.button-primary,
+    a.button-secondary,
+    a.button-tertiary {
+        text-decoration: none;
+        text-align: center;
+    }

@@ -1,0 +1,23 @@
+.breadcrumbs {
+    margin: 0.75rem;
+    .crumb {
+        display: inline-block;
+        margin-right: 0.25rem;
+        color: #666666;
+        font-size: 0.75rem;
+        &::after {
+            content: '/';
+            display: inline-block;
+            margin-left: 0.25rem;
+        }
+        &:last-child::after {
+            display: none;
+        }
+        .crumb-link {
+            color: #666666 !important;
+            &.active {
+                text-decoration: none;
+            }
+        }
+    }
+}

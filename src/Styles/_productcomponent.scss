@@ -1,0 +1,15 @@
+.product-card {
+    width: 26rem;
+    padding: 1rem;
+    margin: 1rem;
+    .product-image {
+        height: 20rem;
+    }
+    .card-body {
+        //height: 15rem;
+        margin-top: 2rem;
+        .product-price {
+            font: $button-font;
+        }
+    }
+}
